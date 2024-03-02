@@ -20,7 +20,7 @@
     <string name="set_dialog_error_message_if_invalid_key">Set dialog error message if invalid key</string>
     <string name="error_code">Неверный код активации</string>
     <string name="set_dialog_massage_if_buy_button_click">Set dialog massage if Buy Button Click</string>
-    <string name="info_of_code">Для активации найдите код на коробке сенсора. После этого перейдите на сайт нажав кнопку ниже. Перейдя на сайт введите код с упаковки и сгенерируйте новый код нажав кнопку (Проверить) Скопируйте новый код в приложение в поле (Код активации)</string>
+    <string name="info_of_code">Для активации найдите код на коробке сенсора.\n После этого перейдите на сайт нажав кнопку ниже.\n Перейдя на сайт введите код с упаковки \n и сгенерируйте новый код нажав кнопку (Проверить)\n Скопируйте новый код в приложение в поле \n (Код активации)</string>
     <string name="set_dialog_button_text_for_purchase">Set dialog button text for Purchase</string>
     <string name="go_to_the_website">Перейти на сайт</string>
     <string name="set_dialog_button_link_for_purchase">Set dialog button link for Purchase</string>

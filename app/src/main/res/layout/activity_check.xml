@@ -27,7 +27,8 @@
                 android:layout_marginTop="15sp"
                 android:onClick="onClickGoToBack"
                 android:background="@drawable/send"
-                android:backgroundTint="@color/white" />
+                android:backgroundTint="@color/white"
+                android:importantForAccessibility="no" />
 
             <TextView
                 android:layout_width="190dp"
@@ -49,7 +50,9 @@
                 android:hint="@string/act"
                 android:textColor="@color/white"
                 android:textColorHint="@color/white"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:inputType="text"
+                android:importantForAutofill="no" />
 
             <TextView
                 android:layout_width="210dp"
@@ -69,7 +72,9 @@
                 android:hint="@string/id"
                 android:textColor="@color/white"
                 android:textColorHint="@color/white"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:importantForAutofill="no"
+                android:inputType="text" />
 
             <TextView
                 android:layout_width="220dp"
@@ -91,7 +96,9 @@
                 android:hint="@string/code"
                 android:textColor="@color/white"
                 android:textColorHint="@color/white"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:importantForAutofill="no"
+                android:inputType="text" />
 
             <TextView
                 android:layout_width="190dp"
@@ -111,7 +118,9 @@
                 android:hint="@string/copy"
                 android:textColor="@color/white"
                 android:textColorHint="@color/white"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:importantForAutofill="no"
+                android:inputType="text" />
 
             <TextView
                 android:layout_width="190dp"
@@ -131,7 +140,9 @@
                 android:hint="@string/site"
                 android:textColor="@color/white"
                 android:textColorHint="@color/white"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:importantForAutofill="no"
+                android:inputType="text" />
 
             <TextView
                 android:layout_width="190dp"
@@ -153,7 +164,9 @@
                 android:hint="@string/check"
                 android:textColor="@color/white"
                 android:textColorHint="@color/white"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:importantForAutofill="no"
+                android:inputType="text" />
 
             <TextView
                 android:layout_width="190dp"
@@ -173,7 +186,9 @@
                 android:textColor="@color/white"
                 android:hint="@string/info_of_act"
                 android:textColorHint="@color/white"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:importantForAutofill="no"
+                android:inputType="text" />
             <TextView
                 android:layout_width="190dp"
                 android:layout_height="20dp"
@@ -192,7 +207,9 @@
                 android:hint="@string/error"
                 android:textColor="@color/white"
                 android:textColorHint="@color/white"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:inputType="text"
+                android:importantForAutofill="no" />
             <TextView
                 android:layout_width="250dp"
                 android:layout_height="20dp"
@@ -211,7 +228,9 @@
                 android:textColor="@color/white"
                 android:hint="@string/error_code"
                 android:textColorHint="@color/white"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:importantForAutofill="no"
+                android:inputType="text" />
             <TextView
                 android:layout_width="270dp"
                 android:layout_height="20dp"
@@ -223,15 +242,17 @@
 
 
             <EditText
-                android:gravity="left"
+                android:gravity="top"
                 android:layout_width="365dp"
-                android:layout_height="210dp"
+                android:layout_height="120dp"
                 android:layout_marginStart="15dp"
                 android:layout_marginTop="-3dp"
                 android:textColor="@color/white"
                 android:hint="@string/info_of_code"
                 android:textColorHint="@color/white"
-                android:textSize="20sp" />
+                android:textSize="14sp"
+                android:importantForAutofill="no"
+                android:inputType="text" />
 
             <TextView
                 android:layout_width="230dp"
@@ -251,7 +272,9 @@
                 android:textColor="@color/white"
                 android:hint="@string/go_to_the_website"
                 android:textColorHint="@color/white"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:importantForAutofill="no"
+                android:inputType="text" />
 
             <TextView
                 android:layout_width="230dp"
@@ -271,7 +294,9 @@
                 android:hint="@string/https"
                 android:textColor="@color/white"
                 android:textColorHint="@color/white"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:importantForAutofill="no"
+                android:inputType="text" />
             <TextView
                 android:layout_width="230dp"
                 android:layout_height="25dp"
@@ -290,7 +315,9 @@
                 android:textColor="@color/white"
                 android:hint="@string/successfully"
                 android:textColorHint="@color/white"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:importantForAutofill="no"
+                android:inputType="text" />
 
             <TextView
                 android:layout_width="240dp"
@@ -309,7 +336,9 @@
                 android:layout_marginTop="-3dp"
                 android:textColor="@color/white"
                 android:textColorHint="@color/white"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:importantForAutofill="no"
+                android:inputType="text" />
 
             <Button
                 android:layout_width="365dp"
