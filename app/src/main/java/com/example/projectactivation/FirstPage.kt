@@ -38,4 +38,5 @@ class FirstPage : AppCompatActivity() {
         val intent = Intent(this, CheckActivity::class.java)
         startActivity(intent)
     }
+
 }

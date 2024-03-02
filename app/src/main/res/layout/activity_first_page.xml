@@ -20,7 +20,7 @@
         <TextView
             android:layout_width="160sp"
             android:layout_height="40sp"
-            android:text="Активация"
+            android:text="@string/activationText"
             android:textColor="@color/black"
             android:textSize="30sp"
             android:textStyle="bold"
@@ -30,7 +30,7 @@
         <TextView
             android:layout_width="30sp"
             android:layout_height="25sp"
-            android:text="ID"
+            android:text="@string/idText"
             android:textStyle="bold"
             android:textColor="@color/black"
             android:textSize="20sp"
@@ -44,7 +44,7 @@
             android:background="@drawable/searchbackground"
             android:layout_marginTop="80sp"
             android:textColor="@color/white"
-            android:hint="Введите ваш ID"
+            android:hint="@string/hintForID"
             android:textColorHint="@color/white"
             android:paddingStart="10sp"
             android:layout_marginStart="-29sp"
@@ -53,7 +53,7 @@
         <TextView
             android:layout_width="150sp"
             android:layout_height="25sp"
-            android:text="Код активации"
+            android:text="@string/activationCodeText"
             android:textStyle="bold"
             android:textSize="20sp"
             android:textColor="@color/black"
@@ -67,7 +67,7 @@
             android:background="@drawable/searchbackground"
             android:layout_marginTop="160sp"
             android:textColor="@color/white"
-            android:hint="Введите код активации"
+            android:hint="@string/hintForActivationCode"
             android:textColorHint="@color/white"
             android:paddingStart="10sp"
             android:layout_marginStart="-150sp"
@@ -80,7 +80,7 @@
             android:layout_marginTop="220sp"
             android:backgroundTint="#0B1447"
             android:onClick="onClickGoToCheck"
-            android:text="Проверить"
+            android:text="@string/textForButtonCheck"
             android:textColor="@color/white"
             android:background="@drawable/buttoncheck" />
 
@@ -90,9 +90,8 @@
             android:layout_height="55sp"
             android:layout_marginStart="-360sp"
             android:layout_marginTop="220sp"
-            android:onClick="onClickGoToDialog"
             android:backgroundTint="#031057"
-            android:text="Перейти на сайт"
+            android:text="@string/TextButtonGoToTheSite"
             android:textColor="@color/white"
             android:background="@drawable/buttoncheck" />
 

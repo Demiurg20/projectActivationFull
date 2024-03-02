@@ -31,5 +31,18 @@
     <string name="start_making">START MAKING</string>
     <string name="patch_apk">PATCH APK</string>
     <string name="elif_commerce">Elif_Commerce</string>
+    <string name="activationText">Активация</string>
+    <string name="idText">ID</string>
+    <string name="hintForID">Введите ваш ID</string>
+    <string name="activationCodeText">Код активации</string>
+    <string name="hintForActivationCode">Введите код активации</string>
+    <string name="textForButtonCheck">Проверить</string>
+    <string name="TextButtonGoToTheSite">Перейти на сайт</string>
+    <string name="TextButtonGoToTheSiteDialog">Перейти на сайт</string>
+    <string name="MainTextDialog">Памятка по активации</string>
+    <string name="instructionFirst">• Для активации найдите код на коробке сенсора.</string>
+    <string name="instructionSecond">• После этого перейдите на сайт нажав кнопку ниже.</string>
+    <string name="instructionThird">• Перейдя на сайт введите код с упаковки и сгенерируйте новый код нажав кнопку (Проверить)</string>
+    <string name="instructionFourth">• Скопируйте новый код в приложениe в поле (Код активации)</string>
 </resources>
 
