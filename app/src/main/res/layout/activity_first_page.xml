@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".FirstPage">
+
+    <LinearLayout
+        android:layout_width="380sp"
+        android:layout_height="290sp"
+        android:background="@drawable/backgroundofactivation"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="160sp"
+            android:layout_height="40sp"
+            android:text="Активация"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_marginStart="105sp"
+            android:layout_marginTop="5sp"/>
+
+        <TextView
+            android:layout_width="30sp"
+            android:layout_height="25sp"
+            android:text="ID"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_marginTop="45sp"
+            android:layout_marginStart="-260sp"/>
+        
+        <EditText
+            android:layout_width="364sp"
+            android:layout_height="35sp"
+            android:background="@drawable/searchbackground"
+            android:layout_marginTop="80sp"
+            android:textColor="@color/white"
+            android:hint="Введите ваш ID"
+            android:textColorHint="@color/white"
+            android:paddingStart="10sp"
+            android:layout_marginStart="-29sp"
+            tools:ignore="RtlSymmetry" />
+
+        <TextView
+            android:layout_width="150sp"
+            android:layout_height="25sp"
+            android:text="Код активации"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:layout_marginTop="125sp"
+            android:layout_marginStart="-364sp"/>
+
+        <EditText
+            android:layout_width="364sp"
+            android:layout_height="35sp"
+            android:background="@drawable/searchbackground"
+            android:layout_marginTop="160sp"
+            android:textColor="@color/white"
+            android:hint="Введите код активации"
+            android:textColorHint="@color/white"
+            android:paddingStart="10sp"
+            android:layout_marginStart="-150sp"
+            tools:ignore="RtlSymmetry" />
+
+        <Button
+            android:layout_width="150sp"
+            android:layout_height="55sp"
+            android:layout_marginStart="-150sp"
+            android:layout_marginTop="220sp"
+            android:backgroundTint="#0B1447"
+            android:onClick="onClickGoToCheck"
+            android:text="Проверить"
+            android:textColor="@color/white"
+            android:background="@drawable/buttoncheck" />
+
+        <Button
+            android:id="@+id/ShowDialog"
+            android:layout_width="200sp"
+            android:layout_height="55sp"
+            android:layout_marginStart="-360sp"
+            android:layout_marginTop="220sp"
+            android:onClick="onClickGoToDialog"
+            android:backgroundTint="#031057"
+            android:text="Перейти на сайт"
+            android:textColor="@color/white"
+            android:background="@drawable/buttoncheck" />
+
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

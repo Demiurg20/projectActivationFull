@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">projectActivation</string>
+    <string name="activation">Активация</string>
+    <string name="enter_title_for_login_interface">Enter title for login interface</string>
+    <string name="act">Активация</string>
+    <string name="set_user_id_title_click_preview">Set User ID title (Click Preview)</string>
+    <string name="id">ID</string>
+    <string name="set_enter_key_title_click_preview">Set Enter key Title (Click Preview)</string>
+    <string name="code">Код активации</string>
+    <string name="set_checkbox_text">Set CheckBox text</string>
+    <string name="copy">Скопируйте код сюда</string>
+    <string name="set_buy_button_text">Set Buy button text</string>
+    <string name="site">Перейти на сайт</string>
+    <string name="set_login_button_text">Set login button text</string>
+    <string name="check">Проверить</string>
+    <string name="set_dialog_information_title">Set dialog information title</string>
+    <string name="info_of_act">Памятка по активации</string>
+    <string name="set_dialog_error_title">Set dialog error title</string>
+    <string name="error">Ошибка</string>
+    <string name="set_dialog_error_message_if_invalid_key">Set dialog error message if invalid key</string>
+    <string name="error_code">Неверный код активации</string>
+    <string name="set_dialog_massage_if_buy_button_click">Set dialog massage if Buy Button Click</string>
+    <string name="info_of_code">Для активации найдите код на коробке сенсора. После этого перейдите на сайт нажав кнопку ниже. Перейдя на сайт введите код с упаковки и сгенерируйте новый код нажав кнопку (Проверить) Скопируйте новый код в приложение в поле (Код активации)</string>
+    <string name="set_dialog_button_text_for_purchase">Set dialog button text for Purchase</string>
+    <string name="go_to_the_website">Перейти на сайт</string>
+    <string name="set_dialog_button_link_for_purchase">Set dialog button link for Purchase</string>
+    <string name="https">https://</string>
+    <string name="set_success_toast_title">Set success toast title</string>
+    <string name="successfully">Успешно</string>
+    <string name="set_toast_user_id_copied_to_clipboard">Set toast user id copied to clipboard</string>
+    <string name="start_making">START MAKING</string>
+    <string name="patch_apk">PATCH APK</string>
+    <string name="elif_commerce">Elif_Commerce</string>
+</resources>
+

@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CheckActivity"
+    android:background="@drawable/background">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="15sp"
+                android:layout_marginTop="15sp"
+                android:onClick="onClickGoToBack"
+                android:background="@drawable/send"
+                android:backgroundTint="@color/white" />
+
+            <TextView
+                android:layout_width="190dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="25dp"
+                android:text="@string/enter_title_for_login_interface"
+                android:textColor="@color/white"
+
+
+                android:textSize="15sp" />
+
+
+            <EditText
+                android:layout_width="365dp"
+                android:layout_height="45dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="-3dp"
+                android:hint="@string/act"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="210dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="25dp"
+                android:text="@string/set_user_id_title_click_preview"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+
+            <EditText
+                android:layout_width="365dp"
+                android:layout_height="45dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="-3dp"
+                android:hint="@string/id"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="220dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="25dp"
+                android:text="@string/set_enter_key_title_click_preview"
+                android:textColor="@color/white"
+
+
+                android:textSize="15sp" />
+
+
+            <EditText
+                android:layout_width="365dp"
+                android:layout_height="45dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="-3dp"
+                android:hint="@string/code"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="190dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="25dp"
+                android:text="@string/set_checkbox_text"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+
+            <EditText
+                android:layout_width="365dp"
+                android:layout_height="45dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="-3dp"
+                android:hint="@string/copy"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="190dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="25dp"
+                android:text="@string/set_buy_button_text"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+
+            <EditText
+                android:layout_width="365dp"
+                android:layout_height="45dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="-3dp"
+                android:hint="@string/site"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="190dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="25dp"
+                android:text="@string/set_login_button_text"
+                android:textColor="@color/white"
+
+
+                android:textSize="15sp" />
+
+
+            <EditText
+                android:layout_width="365dp"
+                android:layout_height="45dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="-3dp"
+                android:hint="@string/check"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="190dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="25dp"
+                android:text="@string/set_dialog_information_title"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+
+            <EditText
+                android:layout_width="365dp"
+                android:layout_height="45dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="-3dp"
+                android:textColor="@color/white"
+                android:hint="@string/info_of_act"
+                android:textColorHint="@color/white"
+                android:textSize="20sp" />
+            <TextView
+                android:layout_width="190dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="25dp"
+                android:text="@string/set_dialog_error_title"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+
+            <EditText
+                android:layout_width="365dp"
+                android:layout_height="45dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="-3dp"
+                android:hint="@string/error"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="20sp" />
+            <TextView
+                android:layout_width="190dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="25dp"
+                android:text="@string/set_dialog_error_message_if_invalid_key"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+
+            <EditText
+                android:layout_width="365dp"
+                android:layout_height="45dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="-3dp"
+                android:textColor="@color/white"
+                android:hint="@string/error_code"
+                android:textColorHint="@color/white"
+                android:textSize="20sp" />
+            <TextView
+                android:layout_width="190dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="25dp"
+                android:text="@string/set_dialog_massage_if_buy_button_click"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+
+            <EditText
+                android:gravity="left"
+                android:layout_width="365dp"
+                android:layout_height="210dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="-3dp"
+                android:textColor="@color/white"
+                android:hint="@string/info_of_code"
+                android:textColorHint="@color/white"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="230dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="25dp"
+                android:text="@string/set_dialog_button_text_for_purchase"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+
+            <EditText
+                android:layout_width="365dp"
+                android:layout_height="45dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="-3dp"
+                android:textColor="@color/white"
+                android:hint="@string/go_to_the_website"
+                android:textColorHint="@color/white"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="230dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="25dp"
+                android:text="@string/set_dialog_button_link_for_purchase"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+
+            <EditText
+                android:layout_width="365dp"
+                android:layout_height="45dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="-3dp"
+                android:hint="@string/https"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="20sp" />
+            <TextView
+                android:layout_width="230dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="25dp"
+                android:text="@string/set_success_toast_title"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+
+            <EditText
+                android:layout_width="365dp"
+                android:layout_height="45dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="-3dp"
+                android:textColor="@color/white"
+                android:hint="@string/successfully"
+                android:textColorHint="@color/white"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="240dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="25dp"
+                android:text="@string/set_toast_user_id_copied_to_clipboard"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+
+            <EditText
+                android:layout_width="365dp"
+                android:layout_height="45dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="-3dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="20sp" />
+
+            <Button
+                android:layout_width="365dp"
+                android:layout_height="55dp"
+                android:text="@string/start_making"
+                android:textSize="20sp"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="15dp"
+                android:background="@drawable/buttonback"
+                />
+            <Button
+                android:layout_width="365dp"
+                android:layout_height="55dp"
+                android:text="@string/patch_apk"
+                android:textSize="20sp"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="15dp"
+                android:background="@drawable/buttonback"
+                />
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="125dp"
+                android:layout_marginTop="30dp"
+                android:text="@string/elif_commerce"
+                android:gravity="center"
+                android:textSize="20sp" />
+
+
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
